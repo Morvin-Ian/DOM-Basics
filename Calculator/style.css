@@ -1,0 +1,32 @@
+.whole{
+    background-color: rgb(61, 125, 125);
+    width: 60%;
+    padding: 20px;
+}
+
+
+.first input{
+    background-color: black;
+    color: wheat;
+    margin: 3px;
+    padding: 20px;
+    width: 2%;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 22px;
+    
+}
+
+#text{
+    padding: 15px;
+    margin-left: 22px;
+}
+
+button{
+    padding: 13px;
+    background-color: black;
+    color: wheat;
+    border-radius: 2px;
+    border: none;
+    width: 23%;
+}

@@ -1,0 +1,42 @@
+
+.timer{
+    height: 300px;
+    width:600px;
+    background: linear-gradient(rgba(0, 0, 0, 0.708), rgba(0, 0, 0, 0.777)), url("Images/tweeter.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+} 
+
+h3{
+    color: wheat;
+    text-align: center;
+    font-weight: 100;
+    font-style: oblique;
+    padding: 20px;
+    font-family: 'Gill Sans', sans-serif;
+ 
+}
+
+.days, .hours, .mins, .seconds{
+    color: wheat;
+    font-size: small;
+    flex-basis: 10%;
+    top: 70%;
+}
+
+span{
+    padding: 3px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+p{
+    color: wheat;
+    font-size: larger;
+    font-weight: bolder;
+    
+}

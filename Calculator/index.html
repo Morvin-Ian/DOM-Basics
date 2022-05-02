@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+   <div class="whole">
+    <form name="Calcform">
+        <input id="text" type="text" name="answer" >
+             
+        <div class="first">
+            <input value="1" onclick="Calcform.answer.value +=1">
+            <input value="2" onclick="Calcform.answer.value +=2">
+            <input value="3" onclick="Calcform.answer.value +=3">
+         </div>
+ 
+ 
+        
+         <div class="first">
+             <input value="4" onclick="Calcform.answer.value +=4">
+             <input value="5" onclick="Calcform.answer.value +=5">
+             <input value="6"onclick="Calcform.answer.value +=6">
+          </div>
+  
+ 
+          
+          <div class="first">
+             <input value="7" onclick="Calcform.answer.value +=7">
+             <input value="8" onclick="Calcform.answer.value +=8">
+             <input value="9" onclick="Calcform.answer.value +=9">
+          </div>
+  
+ 
+         
+          <div class="first">
+             <input value="0" onclick="Calcform.answer.value +=0">
+             <input value="+" onclick="Calcform.answer.value +='+'">
+             <input value="-" onclick="Calcform.answer.value +='-'">
+          </div>
+  
+ 
+         <div class="first">
+             <input value="*" onclick="Calcform.answer.value +='*'">
+             <input value="/" onclick="Calcform.answer.value +='/'">
+             <input value="=" onclick="Calcform.answer.value +=eval(Calcform.answer.value)">
+
+         </div>
+         <div class="first">
+            <input style="width: 30%;" type="button" value="Clear" onclick="Calcform.answer.value +=''">
+         </div>
+       
+    </form> 
+ 
+    
+   </div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
